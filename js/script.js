@@ -10,4 +10,4 @@ document.getElementById('color').innerHTML = favouriteColour;
 
 const generatePassword = userName + userSurname + favouriteColour;
 const createPassword = generatePassword;
-document.getElementsById('password').innerHTML = createPassword;
+document.getElementById('password').innerHTML = createPassword;
